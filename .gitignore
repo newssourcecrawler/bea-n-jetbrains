@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+out/
+
+# Kotlin / Java
+*.class
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Plugin build outputs
+*.zip
+*.jar
+
+# Local scratch
+tmp/
+dist/
