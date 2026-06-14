@@ -1,0 +1,23 @@
+
+
+<idea-plugin>
+    <id>com.newssourcecrawler.bean</id>
+    <name>bea-n</name>
+    <vendor>NSC Labs</vendor>
+
+    <description><![CDATA[
+        Local path/message/device failure case former.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action
+            id="BeaN.ReadSelectedText"
+            class="com.newssourcecrawler.bean.ReadSelectedTextAction"
+            text="Bea-N: Read Selected Text"
+            description="Form a bea-n case from selected evidence text">
+            <add-to-group group-id="ToolsMenu" anchor="last" />
+        </action>
+    </actions>
+</idea-plugin>
